@@ -26,8 +26,8 @@ function AnnA() {
     <section>
       <Header index={i} />
       <div className="relative pb-3">
-        <div className="absolute inset-x-4 top-3 h-full rounded-2xl bg-muted" />
-        <div className="absolute inset-x-2 top-1.5 h-full rounded-2xl border border-border bg-card" />
+        <div className="absolute inset-x-4 bottom-0 top-3 rounded-2xl bg-muted" />
+        <div className="absolute inset-x-2 bottom-1.5 top-1.5 rounded-2xl border border-border bg-card" />
         <button
           onClick={() => setI((v) => (v + 1) % announcements.length)}
           className="relative w-full rounded-2xl border border-border bg-card p-4 text-left"
